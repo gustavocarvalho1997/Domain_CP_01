@@ -1,0 +1,25 @@
+package br.com.fiap.checkpoint.model;
+
+public class Veiculo {
+	//ATRIBUTOS
+	private String modelo, chassi, cor, tipo, placa;
+	private int ano, renavam;
+	
+	//CONSTRUTOR
+	public Veiculo(String tipo, String modelo, String cor, String placa, String chassi
+					, int ano, int renavam ) {
+		this.tipo = tipo;
+		this.modelo = modelo;
+		this.cor = cor;
+		this.placa = placa;
+		this.chassi = chassi;
+		this.ano = ano;
+		this.renavam = renavam;
+	}
+	
+	//METODOS
+	public String retornarDadosVeiculo() {
+		return "Veículo "
+	}
+	
+}
