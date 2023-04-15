@@ -3,11 +3,12 @@ package br.com.fiap.checkpoint.model;
 public class Veiculo {
 	//ATRIBUTOS
 	private String modelo, chassi, cor, tipo, placa;
-	private int ano, renavam;
+	private int ano;
+	private long renavam;
 	
 	//CONSTRUTOR
 	public Veiculo(String tipo, String modelo, String cor, String placa, String chassi
-					, int ano, int renavam ) {
+					, int ano, long renavam ) {
 		this.tipo = tipo;
 		this.modelo = modelo;
 		this.cor = cor;
@@ -50,7 +51,7 @@ public class Veiculo {
 		return ano;
 	}
 
-	public int getRenavam() {
+	public long getRenavam() {
 		return renavam;
 	}
 	
@@ -79,7 +80,7 @@ public class Veiculo {
 		this.ano = ano;
 	}
 
-	public void setRenavam(int renavam) {
+	public void setRenavam(long renavam) {
 		this.renavam = renavam;
 	}
 	

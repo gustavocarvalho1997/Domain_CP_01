@@ -36,6 +36,12 @@ public class Cliente {
 		return veiculo.retornarDadosVeiculo();
 	}
 	
+	public void imprimirDadosCliente() {
+		System.out.println(retornarDadosCliente());
+		System.out.println(retornarEnderecoCliente());
+		System.out.println(retornarVeiculoCliente());
+	}
+	
 	//GETTERS
 
 	public String getNome() {

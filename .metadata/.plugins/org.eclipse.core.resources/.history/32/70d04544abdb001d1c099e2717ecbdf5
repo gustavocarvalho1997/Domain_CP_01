@@ -1,0 +1,20 @@
+package br.com.fiap.checkpoint.view;
+import br.com.fiap.checkpoint.model.Chamado;
+import br.com.fiap.checkpoint.model.Cliente;
+import br.com.fiap.checkpoint.model.Endereco;
+import br.com.fiap.checkpoint.model.Funcionario;
+import br.com.fiap.checkpoint.model.Veiculo;
+import java.util.Scanner;
+
+
+public class Terminal {
+
+	public static void main(String[] args) {
+		//Instanciando Endereço
+		Endereco endereco = new Endereco("Cândida de Carvalho", 477, "08041-030", "São Paulo");
+		//Instanciando Veiculo
+		Veiculo veiculo = new Veiculo("Caminhão ", "Volvo FH 540", "preto",
+				"BEE 4R22", "LJCPCBLCX11000237", 2020, 12345678958);
+	}
+
+}

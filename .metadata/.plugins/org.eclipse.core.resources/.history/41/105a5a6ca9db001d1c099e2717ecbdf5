@@ -1,0 +1,13 @@
+package br.com.fiap.checkpoint.view;
+import br.com.fiap.checkpoint.model.Chamado;
+import br.com.fiap.checkpoint.model.Cliente;
+import br.com.fiap.checkpoint.model.Endereco;
+import br.com.fiap.checkpoint.model.Funcionario;
+import br.com.fiap.checkpoint.model.Veiculo;
+import java.util.Scanner;
+
+
+
+public class Terminal {
+
+}

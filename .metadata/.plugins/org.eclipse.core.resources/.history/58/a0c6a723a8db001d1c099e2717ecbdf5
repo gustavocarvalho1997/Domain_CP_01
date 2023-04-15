@@ -1,0 +1,24 @@
+package br.com.fiap.checkpoint.model;
+
+public class Chamado {
+	private Funcionario funcionario;
+	private Cliente cliente;
+	private String logradouro, cep, referencia;
+	private int codChamado;
+	private boolean statusChamado;
+	
+	
+	//CONSTRUTOR
+	public Chamado(Funcionario funcionario, Cliente cliente, int codChamado, 
+					String logradouro, String cep, String referencia) {
+		this.funcionario = funcionario;
+		this.cliente = cliente;
+		this.codChamado = codChamado;
+		this.logradouro = logradouro;
+		this.cep = cep;
+		this.referencia = referencia;
+		
+	}
+	
+	//METODOS
+}
