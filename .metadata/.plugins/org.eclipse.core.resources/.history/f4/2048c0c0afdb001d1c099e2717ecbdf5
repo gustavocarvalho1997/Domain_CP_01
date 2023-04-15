@@ -1,0 +1,48 @@
+package br.com.fiap.checkpoint.model;
+import java.util.Scanner;
+
+public class Funcionario {
+	//ATRIBUTOS
+	private String nome, cpf, dataNasc, cargo, sexo, setor;
+	private int idFunc;
+	
+	//CONSTRUTOR
+	public Funcionario(int idFunc, String nome, String cpf, String dataNasc, 
+						String sexo, String cargo, String setor) {
+		
+		this.idFunc = idFunc;
+		this.nome = nome;
+		this.cpf = cpf;
+		this.dataNasc = dataNasc;
+		this.sexo = sexo;
+		this.cargo = cargo;
+		this.setor = setor;
+		
+	}
+	
+	//METODOS
+	public void incluirDadosChamado(){
+		Scanner leitor = new Scanner(System.in);
+		System.out.println("Inclua o código do chamado: ");
+		int codChamado = leitor.nextInt();
+		System.out.println("Inclua o logradouro ou local do ocorrido: ");
+		String logradouro = leitor.next();
+		System.out.println("Inclua o CEP: ");
+		String cep = leitor.next();
+		System.out.println("Inclua uma referencia: ");
+		String referencia = leitor.next();
+		
+		
+		
+		Chamado chamado = new Chamado(codChamado, logradouro, cep, referencia);
+		
+		
+		
+		
+		leitor.close();
+	}
+	
+	
+	
+	
+}
